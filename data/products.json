@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Real Madrid",
+    "description": "A Royal Jersey from GOATed club that never goes out of style.",
+    "price": 124.99,
+    "image": "images/madrid.webp"
+  },
+  {
+    "id": 2,
+    "name": "Chelsea FC",
+    "description": "New World Champion Jersey. Made for champions.",
+    "price": 65.99,
+    "image": "images/chelsea.webp"
+  },
+  {
+    "id": 3,
+    "name": "Manchester United",
+    "description": "Cry wearing it... or not. It's a great jersey.",
+    "price": 79.50,
+    "image": "images/utd.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Bayern Munich",
+    "description": "A classic jersey for the fans of the German giants.",
+    "price": 45.00,
+    "image": "images/bayern.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Ac Milan",
+    "description": "Don't let club's downfall affect your jersey game.",
+    "price": 55.00,
+    "image": "images/milan.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Barcelona",
+    "description": "A jersey that will make you feel like a true Catalan (just don't pay the referees)",
+    "price": 19.99,
+    "image": "images/barca.jpg"
+  }
+]

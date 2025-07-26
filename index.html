@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>My Awesome Store</h1>
+        <div class="cart-icon-wrapper">
+            <img src="https://api.iconify.design/solar:cart-large-bold.svg" alt="Cart Icon" id="cart-icon">
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <main>
+        <div id="product-list" class="product-grid">
+            </div>
+    </main>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Your Shopping Cart</h2>
+                <span class="close-button">&times;</span>
+            </div>
+            <div id="cart-items-container">
+                </div>
+            <div class="modal-footer">
+                <h3>Total: $<span id="cart-total">0.00</span></h3>
+                <button id="clear-cart-btn">Clear Cart</button>
+                <button id="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
